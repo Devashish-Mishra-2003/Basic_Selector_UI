@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#65CA69"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="650px"
+        app:cardBackgroundColor="#00FFFFFF"
+        app:cardElevation="0dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="110px"
+            android:gravity="center"
+            android:text="Let's Choose"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200px"
+            android:gravity="center"
+            android:text="Some Habits"
+            android:textColor="#FFFFFF"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100px"
+            android:layout_marginTop="340px"
+            android:layout_marginRight="100px"
+            android:gravity="center"
+            android:text="Choose your daily habits, you can choose more than one"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background"
+            android:orientation="vertical">
+
+
+            <androidx.gridlayout.widget.GridLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="45px"
+                android:layout_marginTop="55px"
+                app:columnCount="3"
+                app:rowCount="4">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:layout_margin="10px"
+                    app:cardCornerRadius="65px"
+                    app:cardElevation="10px">
+
+                    <ImageView
+                        android:id="@+id/imageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="160px"
+                        android:layout_marginTop="20px"
+                        android:src="@drawable/running" />
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="190px"
+                        android:gravity="center"
+                        android:text="Running"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:layout_margin="10px"
+                    android:layout_marginLeft="20px"
+                    app:cardCornerRadius="65px"
+                    app:cardElevation="10px">
+
+                    <ImageView
+                        android:id="@+id/imageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="160px"
+                        android:layout_marginTop="20px"
+                        android:paddingBottom="10px"
+                        android:src="@drawable/reading" />
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="190px"
+                        android:gravity="center"
+                        android:text="Reading"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:layout_margin="10px"
+                    android:layout_marginLeft="20px"
+                    app:cardCornerRadius="65px"
+                    app:cardElevation="10px">
+
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="160px"
+                        android:layout_marginTop="20px"
+                        android:src="@drawable/swimming" />
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="190px"
+                        android:gravity="center"
+                        android:text="Swimming"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:layout_margin="10px"
+                    android:layout_marginTop="20px"
+                    app:cardCornerRadius="65px"
+                    app:cardElevation="10px">
+
+                    <ImageView
+                        android:id="@+id/imageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="160px"
+                        android:layout_marginTop="20px"
+                        android:src="@drawable/gym" />
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="190px"
+                        android:gravity="center"
+                        android:text="Gym"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:layout_margin="10px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="20px"
+                    app:cardCornerRadius="65px"
+                    app:cardElevation="10px">
+
+                    <ImageView
+                        android:id="@+id/imageView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="140px"
+                        android:layout_marginTop="20px"
+                        android:src="@drawable/music" />
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="190px"
+                        android:gravity="center"
+                        android:text="Music"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:layout_margin="10px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="20px"
+                    app:cardCornerRadius="65px"
+                    app:cardElevation="10px">
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="130px"
+                        android:layout_marginTop="30px"
+                        android:src="@drawable/cycling" />
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="190px"
+                        android:gravity="center"
+                        android:text="Cycling"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:layout_margin="10px"
+                    android:layout_marginTop="20px"
+                    app:cardCornerRadius="65px"
+                    app:cardElevation="10px">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="130px"
+                        android:layout_marginTop="30px"
+                        android:src="@drawable/gaming" />
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="190px"
+                        android:gravity="center"
+                        android:text="Gaming"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:layout_margin="10px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="20px"
+                    app:cardCornerRadius="65px"
+                    app:cardElevation="10px">
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="140px"
+                        android:layout_marginTop="20px"
+                        android:src="@drawable/writing" />
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="190px"
+                        android:gravity="center"
+                        android:text="Writing"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:layout_margin="10px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="20px"
+                    app:cardCornerRadius="65px"
+                    app:cardElevation="10px">
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="160px"
+                        android:layout_marginTop="20px"
+                        android:src="@drawable/yoga" />
+
+                    <TextView
+                        android:id="@+id/textView12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="190px"
+                        android:gravity="center"
+                        android:text="Yoga"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:layout_margin="10px"
+                    android:layout_marginTop="20px"
+                    app:cardCornerRadius="65px"
+                    app:cardElevation="10px">
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="match_parent"
+                        android:layout_height="160px"
+                        android:layout_marginTop="20px"
+                        android:src="@drawable/gardening" />
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="190px"
+                        android:gravity="center"
+                        android:text="Gardening"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:layout_margin="10px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="20px"
+                    app:cardCornerRadius="65px"
+                    app:cardElevation="10px">
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="match_parent"
+                        android:layout_height="160px"
+                        android:layout_marginTop="20px"
+                        android:src="@drawable/dancing" />
+
+                    <TextView
+                        android:id="@+id/textView14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="190px"
+                        android:gravity="center"
+                        android:text="Dancing"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:layout_margin="10px"
+                    android:layout_marginLeft="20px"
+                    android:layout_marginTop="20px"
+                    app:cardCornerRadius="65px"
+                    app:cardElevation="10px">
+
+                    <ImageView
+                        android:id="@+id/imageView11"
+                        android:layout_width="match_parent"
+                        android:layout_height="160px"
+                        android:layout_marginTop="20px"
+                        android:src="@drawable/walking" />
+
+                    <TextView
+                        android:id="@+id/textView15"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="190px"
+                        android:gravity="center"
+                        android:text="Walking"
+                        android:textColor="#000000"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+            </androidx.gridlayout.widget.GridLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="160px"
+                android:layout_margin="45px"
+                android:background="@drawable/card_back"
+                android:text="Get Started!"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
